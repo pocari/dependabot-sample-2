@@ -11,6 +11,7 @@ updates:
 
 - package-ecosystem: npm
   directory: "/"
+  target-branch: "feature/tldraw-update"
   schedule:
     interval: daily
     time: "13:45"
