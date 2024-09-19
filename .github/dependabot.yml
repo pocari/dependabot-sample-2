@@ -4,7 +4,7 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "15:58"
+    time: "10:35"
     timezone: Asia/Tokyo
-  versioning-strategy: "increase"
+  versioning-strategy: "lockfile-only"
   open-pull-requests-limit: 10
