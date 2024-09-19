@@ -4,7 +4,16 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "10:35"
+    time: "13:40"
     timezone: Asia/Tokyo
   versioning-strategy: "lockfile-only"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:45"
+    timezone: Asia/Tokyo
+  versioning-strategy: "increase"
   open-pull-requests-limit: 10
