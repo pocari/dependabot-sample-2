@@ -591,17 +591,17 @@
   resolved "https://registry.yarnpkg.com/@radix-ui/rect/-/rect-1.1.0.tgz#f817d1d3265ac5415dadc67edab30ae196696438"
   integrity sha512-A9+lCBZoaMJlVKcRBz2YByCG+Cp2t6nAnMnNba+XiWxnj6r4JUFqfsgwocMBZU9LPtdxC6wB56ySYpc7LQIoJg==
 
-"@tldraw/editor@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/editor/-/editor-2.5.0-canary.c7729f5dbd86.tgz#300c084b43ea75a1725a66eb625038dac4039c68"
-  integrity sha512-J/55+tprqW2UpEUIFujT7t7y6xs8jpmQNvrZXi4ySPYlE9y4ojvNOHxZc8izwzd39V+IkLgp5En1wsBPQMPI6g==
+"@tldraw/editor@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/editor/-/editor-3.0.3.tgz#2f07a5939674506caf5104cb89b87ed661b9b1e5"
+  integrity sha512-XKJe+yyLnrIseO9RwDMpU8+19Zj66augRHdE7Yh5Na7hLuoDrL7IWkrOgf5hmgJsPVvK5o6nVJyoC7V3Ldszxw==
   dependencies:
-    "@tldraw/state" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/state-react" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/store" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/tlschema" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/utils" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/validate" "2.5.0-canary.c7729f5dbd86"
+    "@tldraw/state" "3.0.3"
+    "@tldraw/state-react" "3.0.3"
+    "@tldraw/store" "3.0.3"
+    "@tldraw/tlschema" "3.0.3"
+    "@tldraw/utils" "3.0.3"
+    "@tldraw/validate" "3.0.3"
     "@types/core-js" "^2.5.5"
     "@use-gesture/react" "^10.2.27"
     classnames "^2.3.2"
@@ -609,56 +609,56 @@
     eventemitter3 "^4.0.7"
     idb "^7.1.1"
     is-plain-object "^5.0.0"
-    nanoid "4.0.2"
 
-"@tldraw/state-react@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/state-react/-/state-react-2.5.0-canary.c7729f5dbd86.tgz#6ae1b742f83cfcd15ff11e2bcb50a2237fe8d32f"
-  integrity sha512-BrkCLeSSz5eWwBlCpUr53y0kVKR8hDTwh2lqpMVoLObiZpdh8SdM7Rah00JXu3Sw9yDjA2VRsHsujeRhfSabYA==
+"@tldraw/state-react@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/state-react/-/state-react-3.0.3.tgz#70b9347cf9e70564d978ec237877f62fd2a66d95"
+  integrity sha512-FIIMxXjj06mP9VwONh9WhEDgzjamBD0ZIiCmMAKTm14Y3wlPHaNUq/ZeHdcPstwKJHV6O2+KMOy2qmUgOYu5YA==
   dependencies:
-    "@tldraw/state" "2.5.0-canary.c7729f5dbd86"
+    "@tldraw/state" "3.0.3"
+    "@tldraw/utils" "3.0.3"
 
-"@tldraw/state@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/state/-/state-2.5.0-canary.c7729f5dbd86.tgz#192c87fe5bfbb9ab49d474ca971adda1d896a8fa"
-  integrity sha512-PaPLGvLJ/azcsRnuyj4BgvPoZxb91xhn5RGWm3XBYm+D3fk6xxg90mZWlHuOZdaHm/1j7lzPvxyKz28dOTXqkQ==
-
-"@tldraw/store@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/store/-/store-2.5.0-canary.c7729f5dbd86.tgz#7dd4c1521dec4c7535b87d7abbde80f777e5caa7"
-  integrity sha512-yrgNYz+on66HIu7+Qx/PBcFBS85RgS6+xK/0MN8nU+dMO3/TEerLWB9B27rYnJT67drtE15ydzSHsfO7ifQvbA==
+"@tldraw/state@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/state/-/state-3.0.3.tgz#218e82b96cf81ab4cfae97daf7a2d3ddde84003b"
+  integrity sha512-0BkYaZjR9OvECNL+a29ZyncFbhjj85u/xx546oU0Pd7tult7/8DWoHIExd4ANgblrJm+rtH60W9CemcIymvtDQ==
   dependencies:
-    "@tldraw/state" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/utils" "2.5.0-canary.c7729f5dbd86"
+    "@tldraw/utils" "3.0.3"
+
+"@tldraw/store@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/store/-/store-3.0.3.tgz#4e055e66fdd54050442192bb847d46ec777b59fe"
+  integrity sha512-DQ3J7RCrQgsFm7Esv5NMVHKYzZre1x7uOc4vvep/jK07js5FCVwv1Yg2K8EWhjdUS7DOjsie9yVyx+6KZGIajQ==
+  dependencies:
+    "@tldraw/state" "3.0.3"
+    "@tldraw/utils" "3.0.3"
     lodash.isequal "^4.5.0"
-    nanoid "4.0.2"
 
-"@tldraw/tlschema@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/tlschema/-/tlschema-2.5.0-canary.c7729f5dbd86.tgz#7b16420a642be2ffaf1d8663aa8f2abc5fad0c5c"
-  integrity sha512-Cuwv0t0gvjTJme9W9l0cJ9DcGdDnRgUMs+UKe3LO+t2B3QxSNC+l7/m4eiFTJhcNcuT9CJiDVuWT9eA+5o4xug==
+"@tldraw/tlschema@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/tlschema/-/tlschema-3.0.3.tgz#20945694b7b442be16e63b1d86baeb09bab0b788"
+  integrity sha512-iVU1R9Cw8gL2ydp8bYcRcpyDciKr9MUUcoSMnWcvgNUFURzk3toikLTF1zfznY9wgMm8jyecNS74FRXDqUbwSw==
   dependencies:
-    "@tldraw/state" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/store" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/utils" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/validate" "2.5.0-canary.c7729f5dbd86"
-    nanoid "4.0.2"
+    "@tldraw/state" "3.0.3"
+    "@tldraw/store" "3.0.3"
+    "@tldraw/utils" "3.0.3"
+    "@tldraw/validate" "3.0.3"
 
-"@tldraw/utils@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/utils/-/utils-2.5.0-canary.c7729f5dbd86.tgz#c5751ca7f085a9e0661f3816442b4493b63360ff"
-  integrity sha512-zNjagkqNBddW+UtyUMysmnc8TUYD00FxXPHY1s6fO/cs3RN9uzj2ienykLWX6n3rUAiKHYgmdybsN6N5sDRvpg==
+"@tldraw/utils@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/utils/-/utils-3.0.3.tgz#d06f693c50b47f4f91b49746b65f032528be3052"
+  integrity sha512-Md6RZe+Qo8CXMfo513GKmQmex6tIxDBNaEiDTrK1/hjNefSq5LQi9J6v1TQN0brDywbYVe+iOpjouzxMjsk/tQ==
   dependencies:
     fractional-indexing-jittered "^0.9.1"
     lodash.throttle "^4.1.1"
     lodash.uniq "^4.5.0"
 
-"@tldraw/validate@2.5.0-canary.c7729f5dbd86":
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/@tldraw/validate/-/validate-2.5.0-canary.c7729f5dbd86.tgz#049a61d7a735c1a7cddabd125be9fba7fe2b39ac"
-  integrity sha512-2P/EilelIyYK75I9nutw0A3ZQ4oboaAx3Z1tyEOUiZTFCILKR6/DCfgLK9eCwotRuwpR41q48r+QLuvSWWKcxA==
+"@tldraw/validate@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@tldraw/validate/-/validate-3.0.3.tgz#040a8499fdb2eaf0320134bcbbef5e78504c5a58"
+  integrity sha512-zZ6JbT36DlamI1Nknqn+/yQuR0MQ58XS2rfDkXwKpPLaNOmkSD7GRrZX1HDGv/7yZ1OjWxlmQV/i0ljfol6JEg==
   dependencies:
-    "@tldraw/utils" "2.5.0-canary.c7729f5dbd86"
+    "@tldraw/utils" "3.0.3"
 
 "@types/core-js@^2.5.5":
   version "2.5.8"
@@ -778,11 +778,6 @@ lz-string@^1.4.4:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.5.0.tgz#c1ab50f77887b712621201ba9fd4e3a6ed099941"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
 
-nanoid@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-4.0.2.tgz#140b3c5003959adbebf521c170f282c5e7f9fb9e"
-  integrity sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==
-
 prettier@^2.8.7:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
@@ -832,10 +827,10 @@ regenerator-runtime@^0.14.0:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
   integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
-tldraw@2.5.0-canary.c7729f5dbd86:
-  version "2.5.0-canary.c7729f5dbd86"
-  resolved "https://registry.yarnpkg.com/tldraw/-/tldraw-2.5.0-canary.c7729f5dbd86.tgz#f3d7c0d8bd6e0218d39db633ff450e03f9466cc0"
-  integrity sha512-6vmjib7JoEibivNx1RZbn8J5m5LfEzgYbDqJczJeiDeV6Y7tOSb+MF3Df9aH0r0Gr7Q3/5Gqb5U7vatafjw1Wg==
+tldraw@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/tldraw/-/tldraw-3.0.3.tgz#dd2bb57c9ee096f785b311c948a068ab79b77153"
+  integrity sha512-pENWzrO0DszLu355evevvyr93z00NnFPseTumRTVTYfTgATay4mjlMYQYfJxebVi+t/3u85djQN16nt67Zn7uw==
   dependencies:
     "@radix-ui/react-alert-dialog" "^1.0.5"
     "@radix-ui/react-context-menu" "^2.1.5"
@@ -845,8 +840,8 @@ tldraw@2.5.0-canary.c7729f5dbd86:
     "@radix-ui/react-select" "^1.2.0"
     "@radix-ui/react-slider" "^1.1.0"
     "@radix-ui/react-toast" "^1.1.1"
-    "@tldraw/editor" "2.5.0-canary.c7729f5dbd86"
-    "@tldraw/store" "2.5.0-canary.c7729f5dbd86"
+    "@tldraw/editor" "3.0.3"
+    "@tldraw/store" "3.0.3"
     canvas-size "^1.2.6"
     classnames "^2.3.2"
     hotkeys-js "^3.11.2"

@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "tldraw": "2.5.0-canary.c7729f5dbd86"
+    "tldraw": "3.0.3"
   }
 }
